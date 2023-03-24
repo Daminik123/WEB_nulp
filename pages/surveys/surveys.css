@@ -1,0 +1,83 @@
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+header nav ul li:last-child {
+  margin-right: 0;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+header nav ul li a:hover {
+  color: #28a745;
+}
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+main {
+  max-width: 960px;
+  margin: 120px auto 60px;
+}
+main .survey {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+main .survey h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+main .survey p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+main .survey .button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+main .survey .button:hover {
+  background-color: #218838;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 14px;
+}/*# sourceMappingURL=surveys.css.map */

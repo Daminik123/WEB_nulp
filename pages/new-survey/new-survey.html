@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Survey - VoteHunter</title>
+  <link rel="stylesheet" href="new-survey.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create a New Survey</h1>
+    <form>
+      <label for="name">Survey Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter the name of your survey">
+
+      <label for="description">Survey Description:</label>
+      <textarea id="description" name="description" placeholder="Enter a description of your survey"></textarea>
+
+      <div id="questions">
+        <h2>Questions:</h2>
+        <div class="question">
+          <input type="text" name="question[]" placeholder="Enter your question">
+          <div class="answers">
+            <input type="text" name="answer[]" placeholder="Enter an answer">
+            <input type="text" name="answer[]" placeholder="Enter another answer">
+            <button class="add-answer">Add Another Answer</button>
+          </div>
+        </div>
+        <button class="add-question">Add Another Question</button>
+      </div>
+
+      <button type="submit">Create Survey</button>
+    </form>
+  </div>
+</body>
+</html>
