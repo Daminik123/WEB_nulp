@@ -1,51 +1,7 @@
-  main {
-    max-width: 960px;
-    margin: 120px auto 60px;
-    
-    .survey {
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-bottom: 20px;
-      
-      h2 {
-        margin-top: 0;
-        margin-bottom: 10px;
-        font-size: 24px;
-      }
-      
-      p {
-        margin-bottom: 20px;
-        font-size: 16px;
-      }
-      
-      .button {
-        display: inline-block;
-        padding: 10px;
-        background-color: #28a745;
-        color: #fff;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 18px;
+/* Variables for green color scheme */
+$light-green: #4CAF50;;
+$dark-green: #388E3C;
 
-        &:hover {
-            background-color: #218838;
-        }
-      }
-    }
-}
-
-footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-    
-    p {
-      margin: 0;
-      font-size: 14px;
-    }
-  }
 $primary-color: #4CAF50;
 $secondary-color: #555;
 $background-color: #f2f2f2;
@@ -128,6 +84,38 @@ nav a.active {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
+}
+
+main {
+	padding: 50px;
+	background-color: #fff;
+
+	table {
+		border-collapse: collapse;
+		width: 100%;
+        margin-top: 50px;
+		margin-bottom: 20px;
+
+		th, td {
+			border: 1px solid $light-green;
+			padding: 10px;
+			text-align: left;
+		}
+
+		th {
+			background-color: $light-green;
+			color: #fff;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		tr:hover {
+			background-color: $light-green;
+			color: #fff;
+		}
+	}
 }
 
 /* Media Queries */

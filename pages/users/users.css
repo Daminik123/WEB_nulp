@@ -1,60 +1,7 @@
-  main {
-    max-width: 960px;
-    margin: 120px auto 60px;
-    
-    .survey {
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-bottom: 20px;
-      
-      h2 {
-        margin-top: 0;
-        margin-bottom: 10px;
-        font-size: 24px;
-      }
-      
-      p {
-        margin-bottom: 20px;
-        font-size: 16px;
-      }
-      
-      .button {
-        display: inline-block;
-        padding: 10px;
-        background-color: #28a745;
-        color: #fff;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 18px;
-
-        &:hover {
-            background-color: #218838;
-        }
-      }
-    }
-}
-
-footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-    
-    p {
-      margin: 0;
-      font-size: 14px;
-    }
-  }
-$primary-color: #4CAF50;
-$secondary-color: #555;
-$background-color: #f2f2f2;
-$form-bg-color: white;
-$border-radius: 5px;
-
+/* Variables for green color scheme */
 header {
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
@@ -74,7 +21,7 @@ header {
 .logo {
   font-size: 28px;
   font-weight: bold;
-  color: $primary-color;
+  color: #4CAF50;
   text-decoration: none;
 }
 
@@ -101,7 +48,7 @@ nav a:hover {
 }
 
 nav a.active {
-  background-color: $primary-color;
+  background-color: #4CAF50;
   color: #fff;
 }
 
@@ -121,13 +68,40 @@ nav a.active {
 }
 
 .container.main a.button {
-  background-color: $primary-color;
+  background-color: #4CAF50;
   color: #fff;
   padding: 15px 30px;
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
+}
+
+main {
+  padding: 50px;
+  background-color: #fff;
+}
+main table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+main table th, main table td {
+  border: 1px solid #4CAF50;
+  padding: 10px;
+  text-align: left;
+}
+main table th {
+  background-color: #4CAF50;
+  color: #fff;
+}
+main table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+main table tr:hover {
+  background-color: #4CAF50;
+  color: #fff;
 }
 
 /* Media Queries */
@@ -159,4 +133,4 @@ nav a.active {
     font-size: 16px;
     padding: 10px 20px;
   }
-}
+}/*# sourceMappingURL=users.css.map */
