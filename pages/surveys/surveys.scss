@@ -28,9 +28,27 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 18px;
+        margin-right: 10px;
 
         &:hover {
             background-color: #218838;
+        }
+      }
+
+      .survey-details {
+        display: flex;
+        align-items: center;
+      }
+
+      .vote-count {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+
+        .count {
+          margin-right: 5px;
+          font-weight: bold;
+          font-style: italic;    
         }
       }
     }
